@@ -1,0 +1,242 @@
+/*
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+*/
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #F5EFE6;
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	color: #5A5248;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #3E372F;
+}
+
+h1 {
+	font-size: 2.5em;
+	color: #3E322C;
+}
+
+h2 {
+	font-size: 2em;
+	color: #6B4F4F;
+}
+
+h3 {
+	font-size: 1.4em;
+	color: #8C6E63;
+}
+
+p, ul, ol {
+	margin-top: 0;
+	line-height: 1.8;
+}
+
+a {
+	text-decoration: none;
+	color: #A3774B;
+}
+
+a:hover {
+	color: #6B4F4F;
+}
+
+#wrapper {
+	overflow: hidden;
+	background: #E8DED3;
+}
+
+.container {
+	width: 1200px;
+	margin: 0px auto;
+}
+
+/* Header */
+
+#header-wrapper {
+	overflow: hidden;
+	height: 600px;
+}
+
+#header {
+	width: 960px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 0px 20px;
+}
+
+/* Logo */
+
+#logo {
+	overflow: hidden;
+	height: 150px;
+}
+
+#logo h1, #logo p {
+	text-align: center;
+}
+
+#logo h1 {
+	padding: 5px 0px 20px 0px;
+	letter-spacing: -3px;
+	text-transform: capitalize;
+	font-size: 72px;
+	color: #4F3B31;
+	font-family: 'Merriweather', serif;
+}
+
+#logo p {
+	margin-top: -20px;
+	padding: 0px 0px 0px 5px;
+	font-size: 18px;
+	font-weight: 300;
+	color: #7D6757;
+}
+
+#logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #5A5248;
+}
+
+/* Menu */
+
+#menu-wrapper {
+	overflow: hidden;
+	height: 52px;
+	margin-bottom: 2em;
+	background: #3E322C;
+}
+
+#menu {
+	overflow: hidden;
+	height: 52px;
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu a {
+	display: block;
+	padding: 0px 30px;
+	line-height: 52px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 15px;
+	font-weight: 400;
+	color: #E8DED3;
+}
+
+#menu a:hover, #menu .current_page_item a {
+	background: #6B4F4F;
+	color: #E8DED3;
+}
+
+/* Page */
+
+#page {
+	overflow: hidden;
+	padding: 20px 20px 40px 20px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 752px;
+	padding: 0px 0px 0px 0px;
+}
+
+/* Footer */
+
+#footer {
+	height: 100px;
+	margin: 0 auto;
+	padding: 50px 0px 0px 0px;
+	background: #3E322C;
+}
+
+#footer p {
+	margin: 0;
+	padding-top: 10px;
+	line-height: normal;
+	text-align: center;
+	color: #D1BCA1;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #D1BCA1;
+}
+
+#footer a:hover {
+	text-decoration: none;
+	color: #A3774B;
+}
+
+.box1 {
+	overflow: hidden;
+	height: 300px;
+	background: url(images/img04.jpg) no-repeat center bottom;
+}
+
+/* Three Column Content */
+
+#three-column {
+	overflow: hidden;
+	padding: 10px 0px 50px 0px;
+}
+
+#three-column .tbox1, #three-column .tbox2, #three-column .tbox3 {
+	float: left;
+	width: 384px;
+	margin-right: 20px;
+}
+
+.box-style {
+	background: #F5EFE6;
+	text-align: center;
+	border: 2px solid #D1BCA1;
+	border-radius: 8px;
+}
+
+.box-style h2 {
+	padding: 10px 0px;
+	font-size: 22px;
+	color: #4F3B31;
+	font-family: 'Lora', serif;
+}
+
+.box-style .content {
+	overflow: hidden;
+	width: 324px;
+	padding: 30px;
+}
+
+.button {
+	display: inline-block;
+	margin: 1em 0em;
+	background: #6B4F4F;
+	padding: 1em 2em;
+	color: #F5EFE6;
+	border-radius: 4px;
+	font-weight: bold;
+}
